@@ -1,0 +1,38 @@
+.category{
+    width: 100%;
+    flex-wrap: wrap;
+    .top-Category{
+        .categ-view-btn{
+            background-color: rgb(2,169,92);
+            color: white;
+        }
+        .top-categ-nav{}
+    }
+    .bottm-Category{
+        // background-color: rebeccapurple;
+        width: 100%;
+        gap: 2.1rem;
+        flex-wrap:wrap ;
+        .categ-card{
+            padding-top: 1rem;
+            box-shadow: .4px 2px 4px #aaaaaa;
+            width: 30%;
+            &:hover{
+                border-right: 4px solid rgb(2,169,92);
+            border-bottom: 4px solid rgb(2,169,92);
+            }
+            .details{
+                flex-direction: column;
+                h3{
+                    font-size: 1.2rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgb(0,29,35);
+                }
+            }
+            .icon{
+                padding: 0;
+            }
+        }
+        
+    }
+}

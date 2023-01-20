@@ -82,6 +82,40 @@ a {
   border-radius: 50%;
 }
 
+.category {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.category .top-Category .categ-view-btn {
+  background-color: rgb(2, 169, 92);
+  color: white;
+}
+.category .bottm-Category {
+  width: 100%;
+  gap: 2.1rem;
+  flex-wrap: wrap;
+}
+.category .bottm-Category .categ-card {
+  padding-top: 1rem;
+  box-shadow: 0.4px 2px 4px #aaaaaa;
+  width: 30%;
+}
+.category .bottm-Category .categ-card:hover {
+  border-right: 4px solid rgb(2, 169, 92);
+  border-bottom: 4px solid rgb(2, 169, 92);
+}
+.category .bottm-Category .categ-card .details {
+  flex-direction: column;
+}
+.category .bottm-Category .categ-card .details h3 {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 29, 35);
+}
+.category .bottm-Category .categ-card .icon {
+  padding: 0;
+}
+
 body {
   width: 100vw;
 }
