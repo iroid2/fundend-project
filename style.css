@@ -95,7 +95,7 @@ a {
 }
 @media (max-width: 600px), (max-width: 400px) {
   .category {
-    padding: 1rem 1rem;
+    padding: 1rem 0.4rem;
     flex-direction: column;
   }
 }
@@ -104,6 +104,14 @@ a {
 }
 @media (max-width: 600px), (max-width: 400px) {
   .category .top-Category {
+    flex-direction: column;
+  }
+}
+.category .top-Category .top-categ-nav {
+  font-size: 1rem;
+}
+@media (max-width: 600px), (max-width: 400px) {
+  .category .top-Category .top-categ-nav {
     flex-direction: column;
   }
 }
