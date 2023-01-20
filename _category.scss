@@ -2,8 +2,12 @@
     width: 100%;
     flex-wrap: wrap;
     padding-top: 3rem;
+    background-color: white;
     .top-Category{
         padding-bottom: 3rem;
+        @media(max-width: 600px),(max-width: 400px){
+            flex-direction: column;
+        }
         h2{
             font-size: 2.3rem;
         }
@@ -18,12 +22,21 @@
     .bottm-Category{
         // background-color: rebeccapurple;
         width: 100%;
-        gap: 2rem;
+        gap: 1.7rem;
+        padding: 0 1rem;
         flex-wrap:wrap ;
+        @media(max-width: 600px),(max-width: 400px){
+            flex-direction: column;
+            padding: 0;
+        }
         .categ-card{
-            padding: 1.1rem 2.3rem;
-            box-shadow: .4px 2px 4px #aaaaaa;
-            // width: 30%;
+            padding: 1.6rem 3rem;
+            background-color: white;
+            box-shadow: 2px 2px 2px 1px #aaaaaa;
+            width: 30%;
+            @media(max-width: 600px),(max-width: 400px){
+                width: 100%;
+            }
             &:hover{
                 border-right: 5px solid rgb(2,169,92);
             border-bottom: 5px solid rgb(2,169,92);
