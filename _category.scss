@@ -3,6 +3,11 @@
     flex-wrap: wrap;
     padding-top: 3rem;
     background-color: white;
+    padding: 1rem 4rem;
+    @media(max-width: 600px),(max-width: 400px){
+        padding: 1rem 1rem;
+        flex-direction: column;
+    }
     .top-Category{
         padding-bottom: 3rem;
         @media(max-width: 600px),(max-width: 400px){
@@ -27,7 +32,7 @@
         flex-wrap:wrap ;
         @media(max-width: 600px),(max-width: 400px){
             flex-direction: column;
-            padding: 0;
+            padding: 0rem;
         }
         .categ-card{
             padding: 1.6rem 3rem;
@@ -36,6 +41,7 @@
             width: 30%;
             @media(max-width: 600px),(max-width: 400px){
                 width: 100%;
+                padding: 1.6rem 3rem;
             }
             &:hover{
                 border-right: 5px solid rgb(2,169,92);
