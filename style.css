@@ -25,6 +25,10 @@
   justify-content: space-between;
 }
 
+section {
+  padding: 1rem 4rem;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -85,6 +89,13 @@ a {
 .category {
   width: 100%;
   flex-wrap: wrap;
+  padding-top: 3rem;
+}
+.category .top-Category {
+  padding-bottom: 3rem;
+}
+.category .top-Category h2 {
+  font-size: 2.3rem;
 }
 .category .top-Category .categ-view-btn {
   background-color: rgb(2, 169, 92);
@@ -92,17 +103,16 @@ a {
 }
 .category .bottm-Category {
   width: 100%;
-  gap: 2.1rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 .category .bottm-Category .categ-card {
-  padding-top: 1rem;
+  padding: 1.1rem 2.3rem;
   box-shadow: 0.4px 2px 4px #aaaaaa;
-  width: 30%;
 }
 .category .bottm-Category .categ-card:hover {
-  border-right: 4px solid rgb(2, 169, 92);
-  border-bottom: 4px solid rgb(2, 169, 92);
+  border-right: 5px solid rgb(2, 169, 92);
+  border-bottom: 5px solid rgb(2, 169, 92);
 }
 .category .bottm-Category .categ-card .details {
   flex-direction: column;

@@ -1,25 +1,32 @@
 .category{
     width: 100%;
     flex-wrap: wrap;
+    padding-top: 3rem;
     .top-Category{
+        padding-bottom: 3rem;
+        h2{
+            font-size: 2.3rem;
+        }
         .categ-view-btn{
             background-color: rgb(2,169,92);
             color: white;
         }
-        .top-categ-nav{}
+        .top-categ-nav{
+            // background-color: red;
+        }
     }
     .bottm-Category{
         // background-color: rebeccapurple;
         width: 100%;
-        gap: 2.1rem;
+        gap: 2rem;
         flex-wrap:wrap ;
         .categ-card{
-            padding-top: 1rem;
+            padding: 1.1rem 2.3rem;
             box-shadow: .4px 2px 4px #aaaaaa;
-            width: 30%;
+            // width: 30%;
             &:hover{
-                border-right: 4px solid rgb(2,169,92);
-            border-bottom: 4px solid rgb(2,169,92);
+                border-right: 5px solid rgb(2,169,92);
+            border-bottom: 5px solid rgb(2,169,92);
             }
             .details{
                 flex-direction: column;
