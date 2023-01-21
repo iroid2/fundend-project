@@ -70,7 +70,12 @@ a {
   font-family: "Dancing Script", cursive;
   position: absolute;
   z-index: 1;
-  opacity: 0.3;
+  opacity: 0.2;
+}
+@media (max-width: 700px), (max-width: 400px) {
+  .section-small-h3 span {
+    left: -10%;
+  }
 }
 
 .dot, .dot-2 {
