@@ -21,8 +21,8 @@ body{
             background-repeat: no-repeat;
             // background-color: rosybrown;
             @media(max-width: 600px),(max-width: 400px){
-                
-                padding: 1rem 0rem;
+                background-image: none;
+                padding: 1rem .4rem;
                 background-color: wheat;
 
             }

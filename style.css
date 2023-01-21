@@ -201,7 +201,8 @@ body .container-wrapper header {
 }
 @media (max-width: 600px), (max-width: 400px) {
   body .container-wrapper header {
-    padding: 1rem 0rem;
+    background-image: none;
+    padding: 1rem 0.4rem;
     background-color: wheat;
   }
 }
