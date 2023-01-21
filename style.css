@@ -57,6 +57,20 @@ a {
   color: rgb(2, 169, 92);
   font-size: 1rem;
   font-weight: bold;
+  position: relative;
+  padding-bottom: 1rem;
+  z-index: 90;
+}
+.section-small-h3 span {
+  font-size: 3rem;
+  font-style: normal;
+  left: -1.5%;
+  padding: 0.2rem 2rem;
+  top: -2rem;
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.3;
 }
 
 .dot, .dot-2 {
@@ -65,8 +79,8 @@ a {
   background-color: rgb(254, 145, 12);
   border-radius: 50%;
   position: absolute;
-  right: 10rem;
-  top: 15rem;
+  right: 6rem;
+  top: 8rem;
 }
 @media (max-width: 600px), (max-width: 400px) {
   .dot, .dot-2 {
@@ -75,7 +89,7 @@ a {
 }
 
 .dot-2 {
-  left: 5rem;
+  left: 2rem;
   background-color: rgb(36, 255, 0);
 }
 
@@ -165,17 +179,22 @@ a {
 body {
   width: 100vw;
 }
+@media (max-width: 600px), (max-width: 400px) {
+  body {
+    background-color: red;
+    width: 100vw;
+  }
+}
 body .container-wrapper {
   width: 100%;
 }
 body .container-wrapper header {
   padding: 1rem 4.9rem;
-  background: url(./assets/hero-one-bg.jpg);
 }
 @media (max-width: 600px), (max-width: 400px) {
   body .container-wrapper header {
     padding: 1rem 0rem;
-    background-color: rgb(250, 223, 180);
+    background-color: wheat;
   }
 }
 body .container-wrapper header .location {
@@ -255,14 +274,16 @@ body .container-wrapper header .hero {
   text-align: center;
   flex-wrap: wrap;
   gap: 1rem;
+  position: relative;
 }
 body .container-wrapper header .hero .hero-text-sectn {
-  width: 80%;
+  width: 90%;
   padding: 3rem 0;
 }
 @media (max-width: 600px), (max-width: 400px) {
   body .container-wrapper header .hero .hero-text-sectn {
     width: 100%;
+    padding: 2rem 0;
   }
 }
 body .container-wrapper header .hero .hero-text-sectn p {
@@ -283,6 +304,7 @@ body .container-wrapper header .hero .hero-text-sectn h1 {
     text-align: center;
     font-weight: bolder;
     padding-bottom: 2rem;
+    width: 100%;
   }
 }
 body .container-wrapper header .hero .hero-text-sectn .link-btns {
@@ -291,11 +313,11 @@ body .container-wrapper header .hero .hero-text-sectn .link-btns {
 body .container-wrapper header .hero .her-line {
   width: 125px;
   position: absolute;
-  left: 4rem;
+  left: 2rem;
   z-index: 2;
-  margin-bottom: 16rem;
+  top: 4%;
   transform: rotate(-20deg);
-  opacity: 0.2;
+  opacity: 0.4;
 }
 @media (max-width: 600px), (max-width: 400px) {
   body .container-wrapper header .hero .her-line {

@@ -8,19 +8,20 @@
 @import"_category";
 body{
     width: 100vw;
-    @media(max-width: 700px),(max-width: 400px){
-        // background-color: red;
+    @media(max-width: 600px),(max-width: 400px){
+        background-color: red;
+        width: 100vw;
     }
     .container-wrapper{
         width: 100%;
         header{
             padding: 1rem 4.9rem;
-            background: url(./assets/hero-one-bg.jpg);
+            // background: url(./assets/hero-one-bg.jpg);
             // background-color: rosybrown;
             @media(max-width: 600px),(max-width: 400px){
                 
                 padding: 1rem 0rem;
-                background-color: rgb(250, 223, 180);
+                background-color: wheat;
 
             }
             .location{
@@ -92,11 +93,13 @@ body{
                 text-align: center;
                 flex-wrap: wrap;
                 gap: 1rem;
+                position: relative;
                 .hero-text-sectn{
-                    width: 80%;
+                    width: 90%;
                     padding: 3rem 0;
                     @media(max-width: 600px),(max-width: 400px){
                         width: 100%;
+                        padding: 2rem 0;
                     }
                     p{
                         padding-top: 2rem;
@@ -110,10 +113,11 @@ body{
                         font-weight: bold;
                         padding-bottom: 2rem;
                         @media(max-width: 600px),(max-width: 400px){
-                            font-size: 2rem;
+                        font-size: 2rem;
                         text-align: center;
                         font-weight: bolder;
                         padding-bottom: 2rem;
+                        width: 100%;
                         }
                     }
                     .link-btns{
@@ -124,11 +128,12 @@ body{
                 .her-line{
                     width: 125px;
                     position: absolute;
-                    left: 4rem;
+                    left: 2rem;
                     z-index: 2;
-                    margin-bottom: 16rem;
+                    top: 4%;
+                    // background-color: red;
                     transform: rotate(-20deg);
-                    opacity: .2;
+                    opacity: .4;
                     @media(max-width: 600px),(max-width: 400px){
                         display: none;
                     }

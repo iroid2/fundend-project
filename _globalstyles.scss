@@ -42,6 +42,20 @@ a{
     color: rgb(2,169,92);
     font-size: 1rem;
     font-weight: bold;
+    position: relative;
+    padding-bottom: 1rem;
+    z-index: 90;
+    span{
+        font-size: 3rem;
+        font-style: normal;
+        left: -1.5%;
+        padding: .2rem 2rem;
+        top: -2rem;
+        font-family: 'Dancing Script', cursive;
+        position: absolute;
+        z-index: 1;
+        opacity: .3;
+    }
 }
 .dot,.dot-2{
     width: 25px;
@@ -49,14 +63,14 @@ a{
     background-color: rgb(254, 145, 12);
     border-radius: 50%;
     position: absolute;
-    right: 10rem;
-    top: 15rem;
+    right: 6rem;
+    top: 8rem;
     @media(max-width: 600px),(max-width: 400px){
         display: none;
     }
 }
 .dot-2{
-    left: 5rem;
+    left: 2rem;
     background-color: rgb(36,255,0);
 }
 .circle{
