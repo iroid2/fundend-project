@@ -195,6 +195,9 @@ body .container-wrapper {
 }
 body .container-wrapper header {
   padding: 1rem 4.9rem;
+  background: url(./assets/hero-one-bg.jpg);
+  background-position: 1;
+  background-repeat: no-repeat;
 }
 @media (max-width: 600px), (max-width: 400px) {
   body .container-wrapper header {
