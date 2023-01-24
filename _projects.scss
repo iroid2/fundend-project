@@ -1,0 +1,45 @@
+.projects{
+    padding: 4rem 2rem;
+    background-color: rgb(3, 63, 74);
+    .top-projects{
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        .title{
+            width: 100%;
+            background-color: red;
+            div{
+                font-size: 1.3rem;
+                text-align: center;
+                .section-small-h3{
+                    width: 50%;
+                    position: relative;
+                    .bg-text{
+                        // width: 100px;
+                        text-align: center;
+                        top: 0;
+                        font-size: 1rem;
+                        margin-top: -0.8rem;
+                        text-align: center;
+                        z-index: 2;
+                        left: 50%;
+                        opacity: .1;
+                        color: gray;
+                        // position: absolute;
+                    }
+                
+                }
+            }
+            
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        
+    }
+    .bottm-projects{
+        width: 100%;
+        background-color: red;
+    }
+}
